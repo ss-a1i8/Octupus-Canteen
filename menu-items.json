@@ -1,0 +1,11 @@
+{
+    "btn-1": { "name": "Chicken & Chips", "price": 3.99},
+    "btn-2": { "name": "Chicken & Rice", "price": 4.99},
+    "btn-3": { "name": "Baked Potato", "price": 1.99},
+    "btn-4": { "name": "Salad", "price": 2.99},
+    "btn-5": { "name": "Yogurt", "price": 1.00},
+    "btn-6": { "name": "Canned Drink", "price": 1.30},
+    "btn-7": { "name": "Sandwich", "price": 2.30},
+    "btn-8": { "name": "Crisps", "price": 0.90},
+    "btn-9": { "name": "Fish", "price": 1.90}
+}

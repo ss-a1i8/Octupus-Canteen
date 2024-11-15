@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: "Varela Round", sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-position: fixed;
+    padding: 20px;
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center center; /* Centers the image */
+    background-attachment: fixed;
+    padding: 20px;
+    margin: 0; /* Optional: Removes default margin to ensure full coverage */
+}
+
+
+button {
+    font-size: 1rem;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 0.25rem; /* Slightly rounded corners */
+    color: #fff;
+    background-color: #a861c2; /* Bootstrap primary blue */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: 2px solid #333;
+}
+
+
+button:hover {
+    background-color: #f7b1e7; /* Darker blue on hover */
+}
+
+
+button:disabled {
+    background-color: #6c757d; /* Disabled button color */
+    cursor: not-allowed;
+}
+
+
+.container {
+    max-width: 800px; /* Set maximum width */
+	min-width: 600px; /* Set maximum width */
+    margin: 0 auto; /* Center horizontally */
+    padding: 20px; /* Padding inside the container */
+    background-color: #E5E4E2; /* White background for the container */
+    border: 3px solid #a861c2; /* Light gray border */
+    border-radius: 0.5rem; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+	position: relative; /* Set relative positioning for the container */
+}
+
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: "Archivo Black", sans-serif;
+    color: #343a40; /* Darker color for better contrast */
+    margin-bottom: 1rem;
+}
+
+
+.logo {
+    position: absolute; /* Absolute positioning for the logo */
+    top: 20px; /* Distance from the top of the container */
+    right: 20px; /* Distance from the right of the container */
+    width: 100px; /* Set width for the logo */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+
+.grid-item {
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.menu-item {
+    width:200px;
+    height: 100px;
+    max-width: 200px;
+    max-height: 100px;
+}
+
+
+.reset-btn {
+    width: 700px;
+    height: 100px;
+    max-width: 700px;
+    max-height: 100px;
+    background-color: #f7b1e7;
+    color: #a861c2;
+    font-size: 2rem;
+    font-family:  "Archivo Black", sans-serif;
+    border: 2px solid #333;
+    transition: background-color 0.3s ease;
+}
+
+
+.reset-btn:hover {
+    background-color: #a861c2;
+    color: #fff;
+}
+
+
+.grid-item2 {
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 4;  
+}
+
+
+.receipt-container {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #cecdcb;
+    border: 3px solid #a861c2;
+    border-radius: 0.5rem;
+}
+
+
+.archivo-black-regular {
+font-family: "Archivo Black", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+
+.varela-round-regular {
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
